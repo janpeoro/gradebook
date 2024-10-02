@@ -1,0 +1,52 @@
+
+.contents {
+  
+  width: 80%;
+  position: relative; /* This makes the .contents div a positioning context for its children */
+  padding-top: 26px; /* Add padding to ensure button does not overlap content */
+}
+
+.table-container {
+  width: 95%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+}
+.edit-button {
+  background: black; 
+  border: none; /* Remove default button border */
+  padding: 0; /* Remove default button padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute; /* Allows you to position it in the top-right corner */
+  top: 10px; /* Distance from the top */
+  right: 12px; /* Distance from the right */
+}
+
+.edit-button img {
+  width: 30px; /* Adjust the size of the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+}
+
+.table {
+  color: #f0f0f0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.table th, .table td {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #444;
+}
+
+.table th {
+  color: #ffcc00;
+}
+
+.table td {
+  color: #cccccc;
+}
+
+.separator {
+  border: 0;
+  border-top: 2px dashed #ffcc00;
+  margin: 10px 0;
+}
